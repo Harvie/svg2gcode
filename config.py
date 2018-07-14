@@ -5,7 +5,7 @@ preamble = "G28\nG1 Z5.0"
 postamble = "G28"
 
 """G-code emitted before processing a SVG shape"""
-shape_preamble = "G4 P200"
+shape_preamble = "(Block-name: svg_shape)\nG4 P200"
 
 """G-code emitted after processing a SVG shape"""
 shape_postamble = "G4 P200"
